@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Контакты</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="about.html">О себе</a>
+      <a href="projects.html">Проекты</a>
+      <a href="contact.html">Контакты</a>
+      <button id="theme-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Контакты</h1>
+      <form action="#" method="POST">
+        <label>Имя:<br><input type="text" name="name" required></label><br>
+        <label>Email:<br><input type="email" name="email" required></label><br>
+        <label>Сообщение:<br><textarea name="message" rows="5" required></textarea></label><br>
+        <button type="submit">Отправить</button>
+      </form>
+
+      <h2>Контактная информация</h2>
+      <p>Email: example@mail.com</p>
+      <p>
+        <a href="#">Telegram</a> |
+        <a href="#">Instagram</a> |
+        <a href="#">LinkedIn</a> |
+        <a href="#">GitHub</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> | Никнейм</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
